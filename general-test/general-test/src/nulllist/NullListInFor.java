@@ -8,6 +8,7 @@ public class NullListInFor {
 		List list = null;
 		for(Object obj : list){
 			System.out.println(obj);
+			
 		}
 	}
 
